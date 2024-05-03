@@ -21,7 +21,40 @@
     <div class="main">
         <section>
             <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ ВАШОГО БІЗНЕСУ</h1>
-            <button class="button">Замовити послугу</button>
+            <button class="button" data-modal-open>Замовити послугу</button>
+            <div class="backdrop is-hidden" data-modal>
+                <div class="modal" >
+                    <button class="close" data-modal-close>X</button>
+                    <h1 class="zagolovok">Залиште свої дані,ми вам передзвонимо</h1>
+                    <form action="">
+                        <div class="row">
+                            <div class="group">
+                                <label for="">Ім'я</label>
+                                <input class="input" type="text">
+                            </div>  
+                        </div>
+                            <div class="group email" >
+                                <label for="">Ел.Адреса</label>
+                                <input class="input imput-email"  type="email">
+                            </div>
+                            <div class="row">
+                            <div class="group">
+                                <label for="">Телефон</label>
+                                <input class="input" type="number">
+                            </div>
+                            <div class="group">
+                                <label for="">Коментар</label>
+                                <input class="input" type="comment">
+                               </div>
+                            </div>
+                            <input class="input1" type="checkbox"><p class="tExt">Погоджуюся зрозсилкою та приймаю <a href="">Умови договору</a></p>
+                        </form>
+                               <div class="group">
+                                <button class="button4">Відправити</button>
+                               </div>
+                    </form>
+                </div>
+            </div>
         </section>
     </div>
     <div class="box">
@@ -169,5 +202,6 @@
         </div>
         <br>
     </footer>
+<script src="./index.js"></script>
 </body>
 </html>
