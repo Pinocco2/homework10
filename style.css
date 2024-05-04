@@ -27,7 +27,7 @@ input.input {
 .input2 {
     margin-left: -15px;
     margin-top: 30px;
-    height: 60px;
+    height: 70px;
     width: 370px;
 }
 .tExt {
@@ -50,7 +50,7 @@ label {
     height: 40px;
     color: azure;
     margin-left: 25%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .group {
     margin-left: 40px;
@@ -58,7 +58,7 @@ label {
 .close {
     margin-left: 410px;
     border-radius: 50%;
-    box-shadow: 2px,#6e0808;
+    box-shadow: 5px,#6e0808;
 }
 .is-hidden{
     opacity: 0;
@@ -67,7 +67,8 @@ label {
 .zagolovok{
     font-size: 17px;
     margin-left: 40px;
-    margin-top: 5px;
+    margin-top: -2px;
+    margin-bottom: 2px;
 }
 .modal{
     position: absolute;
@@ -78,7 +79,7 @@ label {
     min-width: 280px;
     padding: 10px;
     width: 450px;
-    height: 450px;
+    height: 456px;
     transform: translate(-50%,-50%);
     border-radius: 5px;
 }
